@@ -20,6 +20,10 @@
  - [Navigating the CDN Landscape: Cost-Effective Options for Content Delivery](https://medium.com/@nixonv/navigating-the-cdn-landscape-cost-effective-options-for-content-delivery-60bac8ed0bfc)
 
 # Certification
+![Certified Kubernetes Administrator](https://github.com/nixvarghese01/nixvarghese01/blob/master/nixon-varghese-5dc76bac-f37b-4f53-b291-e5b35f8588f2-certificate.pdf)
+![AWS Certified Solutions Architect – Associate Certification](https://github.com/nixvarghese01/nixvarghese01/blob/master/AWS%20Certified%20Solutions%20Architect%20-%20Associate%20certificate-1.pdf)
+![New Relic Observability Practitioner](https://github.com/nixvarghese01/nixvarghese01/blob/master/grzrs57k_1699450599691.pdf)
+
 
 
 #### 📫 How to reach me **nixvarghese01@gmail.com**
