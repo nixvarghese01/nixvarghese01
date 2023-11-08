@@ -19,15 +19,6 @@
  - [Secure File Transfers in the Cloud-Driven World: A Guide to Managed File Transfer Solutions](https://medium.com/@nixonv/managed-file-transfer-solutions-navigating-the-cloud-controlled-era-3ba84e3d1abb)
  - [Navigating the CDN Landscape: Cost-Effective Options for Content Delivery](https://medium.com/@nixonv/navigating-the-cdn-landscape-cost-effective-options-for-content-delivery-60bac8ed0bfc)
 
-# Certification
-
-#![nixon-varghese-5dc76bac-f37b-4f53-b291-e5b35f8588f2-certificate_page-0001]()
-
-#![AWS Certified Solutions Architect - Associate certificate-1_page-0001]()
-
-#![grzrs57k_1699450599691_page-0001]()
-
-
 
 #### 📫 How to reach me **nixvarghese01@gmail.com**
 
