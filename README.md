@@ -8,7 +8,7 @@
  🔭 I’m currently working on creating Devops related tech resourses.
  🌱 I’m currently learning observability tools.
 
- 📝 I write blogs on [https://medium.com/@nixvarghese01](https://medium.com/@nixvarghese01)
+ 📝 I write blogs on [https://medium.com/@nixonv](https://medium.com/@nixonv)
 
  <div id="header" align="left">
 
