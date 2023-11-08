@@ -5,8 +5,8 @@
 <h3 align="center">I am a DevOps Engineer certified in Kubernetes and AWS. Passionate about open source software and using technology to solve real-world problems. </h3>
 
 
- 🔭 I’m currently working on a Creating Devops related tech resourses
- 🌱 I’m currently learning observability tools
+ 🔭 I’m currently working on creating Devops related tech resourses.
+ 🌱 I’m currently learning observability tools.
 
  📝 I write blogs on [https://medium.com/@nixvarghese01](https://medium.com/@nixvarghese01)
 
