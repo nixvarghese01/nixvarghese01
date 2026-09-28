@@ -14,7 +14,13 @@
 - 🧭 **11+ years in IT**, including **8+ years in DevOps**, spanning operations, project delivery and platform engineering across **Azure, AWS and on-prem Kubernetes**
 - 🏛️ Currently a **Senior DevOps Engineer at the Ministry of Human Resources and Emiratisation (MOHRE)** in Dubai. I lead DevSecOps and templated CI/CD for web, API and mobile platforms.
 - 🤖 I build **AI platform infrastructure**: GPU-enabled Kubernetes clusters, CI/CD for on-prem model deployment, and integration with AI platform APIs
-- 🔐 I focus on **secure delivery**. I set up **HashiCorp Vault end to end**: the core Vault setup, the secrets workflow, and integration with CI/CD pipelines and applications. I also run GitOps with Argo CD and shift-left scanning with SonarQube, Fortify, Gitleaks, Trivy and OWASP ZAP.
+- 🔐 I focus on **secure delivery**. I set up **HashiCorp Vault end to end**: the core Vault setup, the secrets workflow, and integration with CI/CD pipelines and applications.
+  - **Auth methods:** Kubernetes, AppRole, JWT/OIDC for pipelines
+  - **Secrets engines:** KV v2 and dynamic database credentials
+  - **Operations:** high availability on Raft storage, with Shamir and auto-unseal
+  - **How apps get secrets:** Vault Agent Injector, the Secrets Store CSI driver, and pipeline tasks
+
+  I also run GitOps with Argo CD and shift-left scanning with SonarQube, Fortify, Gitleaks, Trivy and OWASP ZAP.
 - 📍 Based in **Dubai, UAE**
 
 ## 🧩 Platform engineering: an internal developer platform on Backstage
