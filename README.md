@@ -38,12 +38,18 @@ Behind the portal I built **Python APIs integrating with Azure Graph APIs** and 
 
 **Result:** developers get a governed environment and a deployable app from a single request, without raising infra tickets or wiring pipelines by hand.
 
+**Scale:** our platform team ran this across **130+ Azure subscriptions**. The estate included:
+- **AKS clusters** provisioned with Terraform/Terragrunt and bootstrapped with the required platform components
+- **User-assigned managed identities** for secure, secretless access from workloads and pipelines
+- **Argo CD** GitOps for deployments across environments
+- A **source control and CI/CD migration from GitLab to GitHub** (repos and pipelines moved to GitHub Actions)
+
 ## 💼 Experience
 
 | Role | Company | Period | Highlights |
 |---|---|---|---|
 | **Senior DevOps Engineer** (IT Consultant) | Ministry of Human Resources & Emiratisation, Dubai | 2026 – present | Leads DevSecOps; GPU Kubernetes for on-prem AI models; Vault rollout; ArgoCD GitOps; Harbor and VMware Tanzu delivery; reusable CI/CD and security templates for Angular, React, .NET, mobile and Python AI apps |
-| **DevOps & Cloud Engineer** (Consultant) | Core42, Abu Dhabi | 2025 | Azure with Terraform and Terragrunt; legacy-to-Kubernetes migrations; Helm and GitLab migrations; GitHub Actions for infra and apps; **Backstage IDP** with self-service infra and app scaffolding, from request through approval to a Dev deploy; Python and Azure Graph API integration; Kaniko and JFrog pipelines |
+| **DevOps & Cloud Engineer** (Consultant) | Core42, Abu Dhabi | 2025 | Platform team managing **130+ Azure subscriptions**; AKS clusters with required platform components and user-assigned managed identities, built with Terraform and Terragrunt; Argo CD GitOps; **GitLab-to-GitHub migration** of repos and CI/CD to GitHub Actions; Helm migrations; legacy-to-Kubernetes migrations; **Backstage IDP** with self-service infra and app scaffolding, from request through approval to a Dev deploy; Python and Azure Graph API integration; Kaniko and JFrog pipelines |
 | **Technical Lead, DevSecOps** | Wipro (client: US Bank), Bangalore | 2023 – 2024 | Migrated on-prem apps to Azure VMs and AKS; Autosys batch jobs moved to Azure Data Factory; Splunk and SignalFx observability. **Cut deployment time 20%, MTTD 30% and MTTR 40%.** Won Wipro's Inspiring Performance Award |
 | **Senior Systems Engineer, DevOps** | QC Infotech, Dubai | 2015 – 2023 | CI/CD with Jenkins and DevSecOps for React and Java e-commerce; Docker and Kubernetes; cloud cost automation with Python and Boto3; FileCatalyst SaaS on AWS and Azure with Terraform; pre-sales POCs |
 
