@@ -27,7 +27,11 @@ Developers get a governed environment and a deployable app from one request, wit
 - **Senior DevOps Engineer** · Government sector, Dubai · *2026 – now*: DevSecOps lead; templated Azure DevOps CI/CD for APIs, CMS, web and mobile apps; Vault; Argo CD; Harbor + Tanzu; GPU Kubernetes
 - **DevOps & Cloud Engineer** · Core42, Abu Dhabi · *2025*: Backstage IDP, 130+ subscriptions, AKS, Terraform/Terragrunt, GitLab → GitHub migration
 - **Technical Lead, DevSecOps** · Wipro (US Bank) · *2023–24*: Azure/AKS migrations, Autosys → Azure Data Factory, Splunk/SignalFx SRE; Inspiring Performance Award
-- **Senior Systems Engineer, DevOps** · QC Infotech, Dubai · *2015–23*: storage and backup solutions (NAS, on-prem and cloud object storage, tiered storage, tape, backup software); accelerated UDP-based file transfer (FileCatalyst SaaS on AWS and Azure); Jenkins CI/CD, Kubernetes, Terraform, Boto3 cost automation; pre-sales, RFPs and POCs
+- **Senior Systems Engineer, DevOps** · QC Infotech, Dubai · *2015–23*
+  - **DevSecOps:** Jenkins CI/CD with security best practices for React and Java e-commerce apps; Docker and Kubernetes; Terraform; Boto3 cost automation
+  - **Storage and backup:** NAS, on-prem and cloud object storage, tiered storage, tape, backup software
+  - **File transfer:** accelerated UDP-based transfer (FileCatalyst SaaS on AWS and Azure)
+  - **Pre-sales:** RFP responses, demos and POCs
 
 ## 🏅 Certifications
 
