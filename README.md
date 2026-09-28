@@ -11,7 +11,7 @@ I build **internal developer platforms, secure delivery pipelines and Kubernetes
 
 - 🧩 **Platform engineering:** built a Backstage IDP that runs one golden path from a template, through an approval, to infra and app repos, and on to a Dev deploy
 - ☸️ **Scale:** part of a team running **130+ Azure subscriptions** with AKS, managed identities and Argo CD; **automated the migration of 100+ repos and pipelines** from GitLab to GitHub
-- 🔐 **DevSecOps:** end-to-end **HashiCorp Vault** (Raft high availability, auto-unseal, Kubernetes, AppRole and OIDC auth, Agent Injector and CSI) plus shift-left scanning in templated CI/CD
+- 🔐 **DevSecOps:** end-to-end **HashiCorp Vault** (Raft high availability, auto-unseal, Kubernetes/AppRole/OIDC auth, Agent Injector and CSI driver) plus shift-left scanning in templated CI/CD
 - 📉 **SRE:** Splunk and SignalFx alerting for applications and infrastructure; **MTTD cut 30%, MTTR cut 40%**
 - 🤖 **AI infrastructure:** GPU-enabled Kubernetes and CI/CD for on-prem model deployment
 
@@ -48,7 +48,7 @@ Developers get a governed environment and a deployable app from one request, wit
 
 | Area | Tools |
 |---|---|
-| **Azure** | VMs · App Service · Blob Storage · Functions · AKS · VNet · Load Balancer · Key Vault · Data Factory · Azure DevOps |
+| **Azure** | VMs · App Service · Blob Storage · Functions · AKS · VNet · Load Balancer · Key Vault · Data Factory |
 | **AWS** | EC2 · S3 · VPC · IAM · Lambda · CloudWatch · EKS · Auto Scaling · CloudTrail · Route 53 · EBS · EFS · KMS |
 | **Kubernetes** | AKS · EKS · GKE · VMware Tanzu · Rancher · Helm · Kustomize · Argo CD · GPU workloads · cert-manager |
 | **IaC and platform** | Terraform · Terragrunt · Ansible · Backstage |
@@ -66,9 +66,9 @@ Developers get a governed environment and a deployable app from one request, wit
 
 - [coit-simple-micro-GA](https://github.com/nixvarghese01/coit-simple-micro-GA): three-tier microservices on GKE with GitHub Actions, Kustomize and SonarQube
 - [coit-frontend-devsecops](https://github.com/nixvarghese01/coit-frontend-devsecops): hardened images and Kyverno policies (signed images, registry allow-lists)
-- [ecs-stateless-nginx](https://github.com/nixvarghese01/ecs-stateless-nginx): Terraform for highly available ECS Fargate behind an ALB, with a diagram-as-code
+- [ecs-stateless-nginx](https://github.com/nixvarghese01/ecs-stateless-nginx): Terraform for highly available ECS Fargate behind an ALB, with its architecture diagram generated as code
 - [observability](https://github.com/nixvarghese01/observability): Prometheus sample app and OpenTelemetry Collector on Kubernetes
 
 ## ✍️ Writing
 
-[AWS CLI commands for DevOps interviews](https://medium.com/@nixonv/most-commonly-used-aws-cli-commands-asked-in-aws-devops-interviews-f00c80d6e297) · [Managed file transfer in the cloud](https://medium.com/@nixonv/managed-file-transfer-solutions-navigating-the-cloud-controlled-era-3ba84e3d1abb) · [Cost-effective CDN options](https://medium.com/@nixonv/navigating-the-cdn-landscape-cost-effective-options-for-content-delivery-60bac8ed0bfc)
+[Azure data migration strategies](https://medium.com/@nixonv/optimizing-your-azure-journey-data-migration-strategies-9fa31923a242) · [AWS CLI commands for DevOps interviews](https://medium.com/@nixonv/most-commonly-used-aws-cli-commands-asked-in-aws-devops-interviews-f00c80d6e297) · [Managed file transfer in the cloud](https://medium.com/@nixonv/managed-file-transfer-solutions-navigating-the-cloud-controlled-era-3ba84e3d1abb) · [Cost-effective CDN options](https://medium.com/@nixonv/navigating-the-cdn-landscape-cost-effective-options-for-content-delivery-60bac8ed0bfc)
