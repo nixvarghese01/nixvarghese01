@@ -42,7 +42,7 @@ Behind the portal I built **Python APIs integrating with Azure Graph APIs** and 
 - **AKS clusters** provisioned with Terraform/Terragrunt and bootstrapped with the required platform components
 - **User-assigned managed identities** for secure, secretless access from workloads and pipelines
 - **Argo CD** GitOps for deployments across environments
-- An **automated GitLab-to-GitHub migration of 100+ repositories and their CI/CD pipelines**, converted to GitHub Actions
+- An **automated GitLab-to-GitHub migration of 100+ repositories and their CI/CD pipelines**, converted to GitHub Actions. We used **custom Python scripts (GitLab and GitHub APIs)** together with **GitHub Actions Importer**, picking the approach case by case for each repo and pipeline
 
 ## 💼 Experience
 
