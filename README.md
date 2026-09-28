@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Nixon Varghese 👋</h1>
-<h3 align="center">Senior DevOps & Cloud Engineer · DevSecOps · Kubernetes · Platform Engineering</h3>
+<h3 align="center">Senior DevOps & Cloud Engineer · Platform Engineering · SRE · DevSecOps · Kubernetes</h3>
 
 <p align="center">
   <a href="https://linkedin.com/in/nixon-varghese"><img src="https://img.shields.io/badge/LinkedIn-nixon--varghese-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
@@ -50,7 +50,7 @@ Behind the portal I built **Python APIs integrating with Azure Graph APIs** and 
 |---|---|---|---|
 | **Senior DevOps Engineer** (IT Consultant) | Ministry of Human Resources & Emiratisation, Dubai | 2026 – present | Leads DevSecOps; GPU Kubernetes for on-prem AI models; Vault rollout; ArgoCD GitOps; Harbor and VMware Tanzu delivery; reusable CI/CD and security templates for Angular, React, .NET, mobile and Python AI apps |
 | **DevOps & Cloud Engineer** (Consultant) | Core42, Abu Dhabi | 2025 | Platform team managing **130+ Azure subscriptions**; AKS clusters with required platform components and user-assigned managed identities, built with Terraform and Terragrunt; Argo CD GitOps; **automated GitLab-to-GitHub migration of 100+ repos and pipelines** to GitHub Actions; Helm migrations; legacy-to-Kubernetes migrations; **Backstage IDP** with self-service infra and app scaffolding, from request through approval to a Dev deploy; Python and Azure Graph API integration; Kaniko and JFrog pipelines |
-| **Technical Lead, DevSecOps** | Wipro (client: US Bank), Bangalore | 2023 – 2024 | Worked across several projects. **Migrated legacy Autosys batch scheduling to Azure Data Factory** workflows, with Azure Functions for custom steps. Built **Splunk monitoring with developers**: defined application failure error codes and dashboards and alerts that capture them. Set up **infrastructure alerting in SignalFx**. Migrated on-prem apps to Azure VMs and AKS. **Cut deployment time 20%, MTTD 30% and MTTR 40%.** Won Wipro's Inspiring Performance Award |
+| **Technical Lead, DevSecOps** | Wipro (client: US Bank), Bangalore | 2023 – 2024 | **SRE and reliability:** with the developers, defined a standard set of application failure error codes and built **Splunk** dashboards and alerts on them, so failures could be detected and triaged quickly. Set up **SignalFx** infrastructure monitoring and alert notifications. Handled production support, incident response and release management. **Cut MTTD by 30% and MTTR by 40%.** **Modernisation:** migrated legacy **Autosys** batch scheduling to **Azure Data Factory** workflows, with **Azure Functions** for custom steps. Also migrated on-prem apps to Azure VMs and AKS, and cut deployment time 20% with automated pipelines. Worked across several projects. Won Wipro's Inspiring Performance Award |
 | **Senior Systems Engineer, DevOps** | QC Infotech, Dubai | 2015 – 2023 | CI/CD with Jenkins and DevSecOps for React and Java e-commerce; Docker and Kubernetes; cloud cost automation with Python and Boto3; FileCatalyst SaaS on AWS and Azure with Terraform; pre-sales POCs |
 
 ## 🏅 Certifications
