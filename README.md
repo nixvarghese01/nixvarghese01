@@ -62,13 +62,6 @@ Developers get a governed environment and a deployable app from one request, wit
 | **Languages and OS** | Python (Boto3) · Bash · Linux · Windows |
 | **ITSM and collaboration** | Jira · ServiceNow · Confluence · Slack · Microsoft Teams · Zoom |
 
-## 📂 Projects
-
-- [coit-simple-micro-GA](https://github.com/nixvarghese01/coit-simple-micro-GA): three-tier microservices on GKE with GitHub Actions, Kustomize and SonarQube
-- [coit-frontend-devsecops](https://github.com/nixvarghese01/coit-frontend-devsecops): hardened images and Kyverno policies (signed images, registry allow-lists)
-- [ecs-stateless-nginx](https://github.com/nixvarghese01/ecs-stateless-nginx): Terraform for highly available ECS Fargate behind an ALB, with its architecture diagram generated as code
-- [observability](https://github.com/nixvarghese01/observability): Prometheus sample app and OpenTelemetry Collector on Kubernetes
-
 ## ✍️ Writing
 
 [Azure data migration strategies](https://medium.com/@nixonv/optimizing-your-azure-journey-data-migration-strategies-9fa31923a242) · [AWS CLI commands for DevOps interviews](https://medium.com/@nixonv/most-commonly-used-aws-cli-commands-asked-in-aws-devops-interviews-f00c80d6e297) · [Managed file transfer in the cloud](https://medium.com/@nixonv/managed-file-transfer-solutions-navigating-the-cloud-controlled-era-3ba84e3d1abb) · [Cost-effective CDN options](https://medium.com/@nixonv/navigating-the-cdn-landscape-cost-effective-options-for-content-delivery-60bac8ed0bfc)
