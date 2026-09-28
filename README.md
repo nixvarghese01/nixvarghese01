@@ -46,7 +46,21 @@ Developers get a governed environment and a deployable app from one request, wit
 
 <img src="https://skillicons.dev/icons?i=azure,aws,kubernetes,docker,terraform,ansible,githubactions,gitlab,jenkins,prometheus,grafana,python,bash,linux&perline=14" alt="skills"/>
 
-Backstage · Terragrunt · Argo CD · Helm · Kustomize · Vault · Tanzu · Rancher · Harbor · SonarQube · Fortify · Trivy · Gitleaks · Kyverno · Splunk · SignalFx · OpenTelemetry
+| Area | Tools |
+|---|---|
+| **Azure** | VMs · App Service · Blob Storage · Functions · AKS · VNet · Load Balancer · Key Vault · Data Factory · Azure DevOps |
+| **AWS** | EC2 · S3 · VPC · IAM · Lambda · CloudWatch · EKS · Auto Scaling · CloudTrail · Route 53 · EBS · EFS · KMS |
+| **Kubernetes** | AKS · EKS · VMware Tanzu · Rancher · Helm · Kustomize · Argo CD |
+| **IaC and platform** | Terraform · Terragrunt · Ansible · Backstage |
+| **CI/CD** | Azure DevOps (cloud and on-prem) · GitHub Actions · GitLab CI · Jenkins · Harbor · JFrog Artifactory |
+| **Containers** | Docker · Podman · Kaniko |
+| **Security** | SonarQube · Fortify · Black Duck · Synopsys · Trivy · Twistlock · Gitleaks · Spectral · OWASP ZAP |
+| **Secrets** | HashiCorp Vault · Azure Key Vault · AWS Secrets Manager |
+| **Observability** | Splunk · SignalFx · New Relic · Prometheus · Grafana · ELK/EFK |
+| **Storage and backup** | NAS · object storage (on-prem and cloud) · tiered storage · tape · backup software · UDP file transfer (FileCatalyst) |
+| **SCM and build** | Git · GitHub · GitLab · Maven · npm |
+| **Languages and OS** | Python · Bash · Linux · Windows |
+| **ITSM and collaboration** | Jira · ServiceNow · Confluence · Slack · Microsoft Teams · Zoom |
 
 ## 📂 Projects
 
