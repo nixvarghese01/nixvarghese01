@@ -17,12 +17,33 @@
 - 🔐 I focus on **secure delivery**: HashiCorp Vault, GitOps with ArgoCD, and shift-left scanning with SonarQube, Fortify, Gitleaks, Trivy and OWASP ZAP
 - 📍 Based in **Dubai, UAE**
 
+## 🧩 Platform engineering: an internal developer platform on Backstage
+
+At **Core42** I helped build an **internal developer platform (IDP) on Spotify Backstage**. It gives developers one self-service **golden path** that takes them from an idea to running code in a dev environment:
+
+```
+ Pick a project      Choose infra      Approval      Infra repo          App repo + CI/CD      Deploy
+ template in    -->  configuration -->  workflow -->  (Terraform /   -->  skeleton, sample  -->  to Dev
+ Backstage           (sizing)                         Terragrunt)         code
+```
+
+1. **Self-service start:** the developer picks a project template in Backstage.
+2. **Infra configuration:** they choose a rough infrastructure profile, such as size, environment and components.
+3. **Governed approval:** the request goes through an approval step before anything is provisioned.
+4. **Infrastructure as code:** an infra repo is generated with **Terraform and Terragrunt** modules and applied to **Azure**.
+5. **Application scaffold:** an application repo is created with sample code and a ready-to-use **CI/CD pipeline skeleton**.
+6. **First deploy:** the app is built and deployed to the **dev environment** automatically.
+
+Behind the portal I built **Python APIs integrating with Azure Graph APIs** and connected them to the Terraform/Terragrunt layer, so the portal, identity, approvals and IaC work together as one automated workflow.
+
+**Result:** developers get a governed environment and a deployable app from a single request, without raising infra tickets or wiring pipelines by hand.
+
 ## 💼 Experience
 
 | Role | Company | Period | Highlights |
 |---|---|---|---|
 | **Senior DevOps Engineer** (IT Consultant) | Ministry of Human Resources & Emiratisation, Dubai | 2026 – present | Leads DevSecOps; GPU Kubernetes for on-prem AI models; Vault rollout; ArgoCD GitOps; Harbor and VMware Tanzu delivery; reusable CI/CD and security templates for Angular, React, .NET, mobile and Python AI apps |
-| **DevOps & Cloud Engineer** (Consultant) | Core42, Abu Dhabi | 2025 | Azure with Terraform and Terragrunt; legacy-to-Kubernetes migrations; Helm and GitLab migrations; GitHub Actions for infra and apps; internal developer platform on **Backstage**; Kaniko and JFrog pipelines |
+| **DevOps & Cloud Engineer** (Consultant) | Core42, Abu Dhabi | 2025 | Azure with Terraform and Terragrunt; legacy-to-Kubernetes migrations; Helm and GitLab migrations; GitHub Actions for infra and apps; **Backstage IDP** with self-service infra and app scaffolding, from request through approval to a Dev deploy; Python and Azure Graph API integration; Kaniko and JFrog pipelines |
 | **Technical Lead, DevSecOps** | Wipro (client: US Bank), Bangalore | 2023 – 2024 | Migrated on-prem apps to Azure VMs and AKS; Autosys batch jobs moved to Azure Data Factory; Splunk and SignalFx observability. **Cut deployment time 20%, MTTD 30% and MTTR 40%.** Won Wipro's Inspiring Performance Award |
 | **Senior Systems Engineer, DevOps** | QC Infotech, Dubai | 2015 – 2023 | CI/CD with Jenkins and DevSecOps for React and Java e-commerce; Docker and Kubernetes; cloud cost automation with Python and Boto3; FileCatalyst SaaS on AWS and Azure with Terraform; pre-sales POCs |
 
@@ -43,7 +64,8 @@ Also: MCSE · ITIL v3 Foundation · Oracle Cloud Foundations · FileCatalyst Cer
 |---|---|
 | **Cloud** | Azure (AKS, App Service, Functions, Data Factory, Key Vault, VNet) · AWS (EKS, EC2, Lambda, VPC, IAM, S3, CloudWatch, Route 53, KMS) |
 | **Kubernetes** | AKS · EKS · GKE · VMware Tanzu · Rancher · Helm · Kustomize · GPU workloads |
-| **IaC & GitOps** | Terraform · Terragrunt · Ansible · ArgoCD · Backstage |
+| **Platform engineering** | Spotify Backstage (IDP, software templates) · golden paths · self-service infrastructure |
+| **IaC & GitOps** | Terraform · Terragrunt · Ansible · ArgoCD |
 | **CI/CD** | GitHub Actions · GitLab CI · Azure DevOps · Jenkins · Harbor · JFrog Artifactory |
 | **Containers** | Docker · Podman · Kaniko |
 | **DevSecOps** | HashiCorp Vault · SonarQube · Fortify · Black Duck · Trivy · Twistlock · Gitleaks · Spectral · OWASP ZAP · Kyverno |
