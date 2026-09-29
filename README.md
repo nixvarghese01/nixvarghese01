@@ -13,7 +13,7 @@ I build **internal developer platforms, secure delivery pipelines and Kubernetes
 - ☸️ **Scale:** part of a team running **130+ Azure subscriptions** with AKS, managed identities and Argo CD; **automated the migration of 100+ repos and pipelines** from GitLab to GitHub
 - 🔐 **DevSecOps:** end-to-end **HashiCorp Vault** (Raft high availability, auto-unseal, Kubernetes/AppRole/OIDC auth, Agent Injector and CSI driver) plus shift-left scanning in templated CI/CD
 - 📉 **SRE:** Splunk and SignalFx alerting for applications and infrastructure; **MTTD cut 30%, MTTR cut 40%**
-- 🤖 **AI infrastructure:** GPU-enabled Kubernetes and CI/CD for on-prem model deployment
+- 🤖 **AI infrastructure:** GPU-enabled Kubernetes and CI/CD for on-prem model deployment; built a [hybrid cloud and local LLM chatbot](https://github.com/nixvarghese01/hybrid-chatbot) (OpenAI, Gemini, Ollama)
 
 ## 🧩 Golden path I've built
 
@@ -54,6 +54,7 @@ Developers get a governed environment and a deployable app from one request, wit
 | **IaC and platform** | Terraform · Terragrunt · Ansible · Backstage |
 | **CI/CD** | Azure DevOps (cloud and on-prem) · GitHub Actions · GitLab CI · Jenkins · Harbor · JFrog Artifactory |
 | **Containers** | Docker · Podman · Kaniko |
+| **AI and LLM** | OpenAI · Gemini · Ollama · FastAPI · React |
 | **Security** | SonarQube · Fortify · Black Duck · Synopsys · Trivy · Twistlock · Gitleaks · Spectral · OWASP ZAP · Kyverno |
 | **Secrets** | HashiCorp Vault · Azure Key Vault · AWS Secrets Manager |
 | **Observability** | Splunk · SignalFx · New Relic · Prometheus · Grafana · ELK/EFK · OpenTelemetry |
@@ -61,6 +62,10 @@ Developers get a governed environment and a deployable app from one request, wit
 | **SCM and build** | Git · GitHub · GitLab · Maven · npm |
 | **Languages and OS** | Python (Boto3) · Bash · Linux · Windows |
 | **ITSM and collaboration** | Jira · ServiceNow · Confluence · Slack · Microsoft Teams · Zoom |
+
+## 📂 Projects
+
+- [**hybrid-chatbot**](https://github.com/nixvarghese01/hybrid-chatbot): a hybrid AI chatbot with a FastAPI router that sends each prompt to OpenAI or Gemini in the cloud, or to a local Ollama model. Private prompts stay local, the router falls back automatically when a cloud model fails, and it has a React UI and runs as a full Podman container stack.
 
 ## ✍️ Writing
 
