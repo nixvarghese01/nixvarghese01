@@ -66,6 +66,9 @@ Developers get a governed environment and a deployable app from one request, wit
 ## 📂 Projects
 
 - [**hybrid-chatbot**](https://github.com/nixvarghese01/hybrid-chatbot): a hybrid AI chatbot with a FastAPI router that sends each prompt to OpenAI or Gemini in the cloud, or to a local Ollama model. Private prompts stay local, the router falls back automatically when a cloud model fails, and it has a React UI and runs as a full Podman container stack.
+- [**sentiment-microservices-gke-cicd**](https://github.com/nixvarghese01/sentiment-microservices-gke-cicd): three microservices (React, Spring Boot, Flask) with GitHub Actions CI/CD to **GKE**. It covers SonarQube scanning, Docker Hub images, Kustomize stage and prod overlays, HPA, cert-manager TLS and tag-based production releases.
+- [**aws-ecs-fargate-terraform**](https://github.com/nixvarghese01/aws-ecs-fargate-terraform): **Terraform** for a highly available ECS Fargate service behind an ALB across two AZs, with IAM roles, networking, a one-command deploy script and an architecture diagram generated as code.
+- [**sentiment-frontend-devsecops-kyverno**](https://github.com/nixvarghese01/sentiment-frontend-devsecops-kyverno): **Kyverno** admission policies (signed images only, registry allow-lists, label and namespace rules) plus a hardened container image, deployed with Kustomize.
 
 ## ✍️ Writing
 
